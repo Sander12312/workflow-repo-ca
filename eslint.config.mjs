@@ -10,6 +10,7 @@ export default defineConfig([
     languageOptions: {
       globals: {
         ...globals.browser,
+        ...globals.node,
         describe: 'readonly',
         it: 'readonly',
         test: 'readonly',
